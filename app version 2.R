@@ -50,7 +50,7 @@ ui <- fluidPage(
                     choices = c("red", "green", "grey", "yellow", "darkblue","pink","purple"), 
                     selected = "darkblue"), 
         
-        helpText("Choices in Line Charts"),
+        helpText("Choices in Dot and Line Charts"),
         
         # Set min/max of Cohort Values
         selectInput(inputId = "min", 
